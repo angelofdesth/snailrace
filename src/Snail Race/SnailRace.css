@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+:root {
+  --black: #353238;
+  --accent: #FFB17A;
+  --primary: #f79f6d;
+  --dark-green: #79ac69;
+  --green: #b8d17d;
+  --light-green:#c9db9e;
+  --blue: #ACCBEC;
+  --white: #f8e9cc;
+
+  --xs: 4px;
+  --s: 8px;
+  --m: 16px;
+  --l: 24px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+  color: var(--black);
+}
+
+h1 {
+  font-size: 60px;
+  margin: 3vw;
+}
+
+button {
+  background-color: var(--green);
+  border-color: var(--black);
+  color: var(--black);
+  width: auto;
+  align-self: center;
+  padding: 10px 16px;
+  margin-top: auto;
+  margin-bottom: 5em;
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+  border-radius: 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: var(--light-green);
+}
+
+.SnailRaceContainer{
+  min-height: 100vw;
+  width: auto;
+  background-image: url("../../assets/racetrack.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: var(--green);
+}
+
+.sign{
+    position: absolute;
+    top: 25vw;
+    left: 50vw  ;
+    height: 25vw;
+    width: 45vw;
+    padding: 4vw;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("../../assets/sign.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: var(--white);
+}
+
+.snail {
+    position: absolute;
+    width: 9%;
+}
+
+.nametag {
+  margin: 0px 0px -15px 0px;
+  text-align: center;
+}
