@@ -1,9 +1,9 @@
 {
-  "name": "Angeline's Personal Website",
+  "name": "Snail Race",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://angelofdesth.github.io",
+  "homepage": "https://angelofdesth.github.io/snailrace",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
